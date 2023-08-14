@@ -16,12 +16,12 @@ Steps to run the Project:
 # Endpoints
 9. To create an invoice object, make a POST request to http://127.0.0.1:4000/invoices/.
     ##
-    Url:- http://127.0.0.1:4000/invoices/
-    Method:- POST
+    Url:- http://127.0.0.1:4000/invoices/<br/>
+    Method:- POST<br/>
     headers = {
     'Content-Type': 'application/x-www-form-urlencoded'
-    }
-    payload = 'date=2023-08-14'
+    }<br/>
+    payload = 'date=2023-08-14'<br/>
     response:{
      "id": 5,
      "items": [],
@@ -29,10 +29,11 @@ Steps to run the Project:
     }
 
 11. To get all invoice objects, make a GET request to http://127.0.0.1:4000/invoices/.
-    URL:-  http://127.0.0.1:4000/invoices/
-    Method: GET
-    headers: {}
-    payload: {}
+    ##
+    URL:-  http://127.0.0.1:4000/invoices/<br/>
+    Method: GET<br/>
+    headers: {}<br/>
+    payload: {}<br/>
     Sample Response:[
         {
         "id": 1,
@@ -50,10 +51,11 @@ Steps to run the Project:
     ]
     
 13. To retrieve all invoice item objects, you can use GET requests to http://127.0.0.1:4000/invoice-items/
-    URL:- http://127.0.0.1:8000/invoice-items/
-    Method: GET
-    headers: {}
-    payload: {}
+    ##
+    URL:- http://127.0.0.1:8000/invoice-items/<br/>
+    Method: GET<br/>
+    headers: {}<br/>
+    payload: {}<br/>
     Sample Response:[
         {
         "id": 1,
@@ -65,12 +67,13 @@ Steps to run the Project:
     ]
     
 15. To create an invoice items object, you can use POST requests to http://127.0.0.1:4000/invoice-items/.
-    Url:- http://127.0.0.1:4000/invoice-items/
-    Method:- POST
+    ##
+    Url:- http://127.0.0.1:4000/invoice-items/<br/>
+    Method:- POST<br/>
     headers = {
     'Content-Type': 'application/x-www-form-urlencoded'
-    }
-    payload = 'units=2&description=bags&amount=399&invoice=5'
+    }<br/>
+    payload = 'units=2&description=bags&amount=399&invoice=5'<br/>
     response:{
     "id": 4,
     "units": 2,
