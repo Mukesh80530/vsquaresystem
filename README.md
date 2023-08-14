@@ -1,7 +1,7 @@
 # Invoice Generator 
 this is a simple project for coding test for Invoice Generator, project includes Python, Django, and Django Rest framework.
 
-# Steps to run the Project - Django Rest Framework
+# 1. Steps to run the Project - Django Rest Framework
 1. Create a project folder i.e. Invoice Generator.
 2. cd to  Invoice Generator.
 3. Make a virtual environment for the project using the command, python3 -m venv env.
@@ -13,7 +13,7 @@ this is a simple project for coding test for Invoice Generator, project includes
      python manage.py runserver 4000
 7. Access the URL at http://127.0.0.1:4000
 
-# Endpoints - Postman
+# 2. Endpoints - Postman
 9. To create an invoice object, make a POST request to http://127.0.0.1:4000/invoices/.
     ##
     Url:- http://127.0.0.1:4000/invoices/<br/>
